@@ -1,0 +1,32 @@
+:root {
+	--font_family: 'Courier New', 'Courier Prime';
+	--golgothas: #1f9400;
+	--timaeus: #f2a400;
+
+	--bg_color: #000000;
+	--fg_color: #ffffff;
+	--accent_color: var(--golgothas);
+	--accent_light: #36ab17;
+	--mid_grey: #e5e5e5;
+	--grey: #535353;
+	--dark_grey: #222222;
+
+	--text_color: var(--dark_grey);
+	--link_color: var(--accent_color);
+	--button_color: var(--accent_color);
+	--button_text_color: var(--fg_color);
+}
+
+body {
+    color: var(--text_color);
+    font-family: var(--font_family);
+}
+
+a {
+    color: var(--link_color);
+}
+
+button {
+    color: var(--button_text_color);
+    background-color: var(--button_color);
+}

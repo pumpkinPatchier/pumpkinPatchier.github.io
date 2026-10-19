@@ -1,0 +1,234 @@
+#workskin .class-name {
+  font-weight: bold;
+  color: #E4572E;
+}
+
+#workskin .class-color {
+  font-weight: bold;
+  color: #F3A712;
+}
+
+#workskin .class-link {
+  font-weight: bold;
+  color: #669BBC;
+}
+
+#workskin .class-icon {
+  font-weight: bold;
+  color: #20BF55;
+}
+
+#workskin .css.dark {
+  background-color: #211717;
+}
+
+#workskin .code-comment {
+  color: #717171;
+}
+
+#workskin .default-color {
+  font-weight: bold;
+  background-color: #555;
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#workskin .primary-color {
+  font-weight: bold;
+  color: #C5482E;
+}
+
+#workskin .secondary-color {
+  font-weight: bold;
+  color: #34D3E4;
+}
+
+#workskin .tertiary-color {
+  font-weight: bold;
+  color: #328F3F;
+}
+
+#workskin .tld {
+  font-weight: bold;
+  color: #328F3F;
+}
+
+#workskin .img {
+  font-weight: bold;
+  color: #34D3E4;
+}
+
+#workskin .gradient-1 {
+  font-weight: bold;
+  color: #C5482E;
+}
+
+#workskin .gradient-2 {
+  font-weight: bold;
+  color: #34D3E4;
+}
+
+#workskin .url {
+  font-weight: bold;
+  color: #328F3F;
+}
+
+#workskin .code-container {
+  padding: 0 2em;
+  margin-top: -1.5em;
+  margin-bottom: 3em;
+}
+
+#workskin .code-container pre {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  box-shadow: inset 0 1px 2px #ccc;
+  padding: 1em;
+  margin-top: 1.2em;
+  overflow: auto;
+  display: block;
+}
+
+#workskin pre.abridged {
+  max-height: 12em;
+}
+
+#workskin .example {
+  margin: 1em 1em 0em 0em;
+  float: left;
+}
+
+#workskin .css {
+  overflow: auto;
+  height: 100%;
+  display: block;
+  background-color: #DDDDDD;
+  border-radius: 12px;
+  border: 2px solid #f3efec;
+  padding: .643em;
+  box-shadow: inset 1px 0 5px #999;
+}
+
+#workskin .css.label {
+  width: max-content;
+  border-radius: unset;
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: .5em;
+  box-shadow: 1px 2px 3px #999;
+  margin-left: 2em;
+  margin-bottom: -1.5em;
+}
+
+#workskin .html {
+  overflow: auto;
+  height: 100%;
+  display: block;
+  background-color: #DDDDDD;
+  border-radius: 12px;
+  border: 2px solid #f3efec;
+  padding: .643em;
+  box-shadow: inset 1px 0 5px #999;
+}
+
+#workskin .html.label {
+  color: #900;
+  width: max-content;
+  border-radius: unset;
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: .5em;
+  box-shadow: 1px 2px 3px #999;
+  margin-left: 2em;
+  margin-bottom: -1.5em;
+}
+
+#workskin .button {
+  border-radius: 4px;
+  border: 1px solid #BBBBBB;
+  margin: 1px auto;
+  background: linear-gradient(#FFFFFF, #dbdbdb);
+  box-shadow: inset 0px -1px #c9c9c9;
+  color: #2a2a2a;
+  padding: 2px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#workskin .button:hover {
+  background: grey;
+}
+
+#workskin .button > .show-hide::before {
+  content: "Show ";
+}
+
+#workskin details[open] > summary > .show-hide::before {
+  content: "Hide ";
+}
+
+#workskin .button > .open-close::before {
+  content: "Open ";
+}
+
+#workskin details[open] > summary > .open-close::before {
+  content: "Close ";
+}
+
+#workskin .button > .change-text::before {
+  content: "TEXT FOR CLOSED: ";
+  color: #C5482E;
+}
+
+#workskin details[open] > summary > .change-text::before {
+  content: "TEXT FOR OPENED: ";
+  color: #34D3E4;
+}
+
+#workskin .button > .sesame-prose::after {
+  content: " open sesame!";
+}
+
+#workskin details:open > summary > .sesame-prose::after {
+  content: " close the prose!";
+}
+
+#workskin .button > .click-me::before {
+  content: "Click me!";
+}
+
+#workskin details[open] > summary > .click-me::before {
+  content: "Again please!";
+}
+
+#workskin .log {
+  background: #eeeeee;
+  border: gray dashed 0.5px;
+}
+
+#workskin .dialog {
+  font-weight: bold;
+  font-family: "Courier New","CourierPrime",courier,monospace;
+  line-height: 1.35;
+  padding-right: 2.7em;
+  padding-left: 2.7em;
+  padding-bottom: 0.7em;
+}
+
+#workskin .dialog p {
+  margin: 0;
+}
+
+#workskin .dirk {
+  color: #f2a400;
+}
+
+#workskin .jake {
+  color: #1f9400;
+}
