@@ -7,26 +7,97 @@
 	--fg_color: #ffffff;
 	--accent_color: var(--golgothas);
 	--accent_light: #36ab17;
+	--secondary_accent_color: var(--timaeus);
+	--secondary_accent_shadow: #ff7607;
 	--mid_grey: #e5e5e5;
 	--grey: #535353;
 	--dark_grey: #222222;
 
+	--spacer_image: url(./assets/golgothas.png);
+	--background_image: url(./assets/stripes_tile.gif);
+
 	--text_color: var(--dark_grey);
 	--link_color: var(--accent_color);
+	--link_hover_color: var(--accent_light);
+	--link_visited_color: var(--secondary_accent_color);
+	--link_visited_hover_color: var(--secondary_accent_shadow);
+	--navbar_color: var(--dark_grey);
+	--navbar_text_color: var(--fg_color);
 	--button_color: var(--accent_color);
 	--button_text_color: var(--fg_color);
 }
 
+#navbar {
+    position: static;
+    margin: 0;
+    white-space: nowrap;
+    padding: 8px 0 8px 10px;
+    background: var(--navbar_color);
+    color: var(--navbar_text_color);
+}
+
+#navbar > li {
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+
+#navbar > li:not(:first-child)::before {
+    content: "";
+    display: inline-block;
+    background-image: var(--spacer_image);
+    background-size: contain;
+    image-rendering: crisp-edges;
+    margin: 0 8px -5px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.content {
+    padding: 0 20px;
+    background-image: var(--background_tile);
+}
+
 body {
+    font-size: 14px;
+    margin: 0;
     color: var(--text_color);
     font-family: var(--font_family);
 }
 
+em {
+    color: var(--accent_color);
+}
+
 a {
+    font-weight: bold;
     color: var(--link_color);
+}
+
+a:hover {
+    color: var(--link_hover_color);
+}
+
+a:visited {
+    color: var(--link_visited_color);
+}
+
+a:visited:hover {
+    color: var(--link_visited_hover_color);
 }
 
 button {
     color: var(--button_text_color);
     background-color: var(--button_color);
 }
+
+header {
+    font-weight: bold;
+    background: var(--header_color);
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
+
+
