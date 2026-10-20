@@ -1,16 +1,23 @@
 
 
 ## My Personal Gallery
+Here is an assorted collection of the art that I've created.
 
 ### 3D Stuff
 More stuff coming soon, but in the meantime, this low-poly animation is made in Blender (including modeling, painting, UV unwrapping, animation, compositing, and video editing). The effects in the background look like 2D, but they're actually curves animated in 3D, but rendered flat!
-![blender_spin.gif](blender_spin.gif)
-<img src="blender_spin.gif" width="100%" />
+<img src="blender_spin.gif" width="85%" align="middle" />
 
+
+### Statue Studies
+<p align="middle">
+  <img src="lighting_study.png" width="50%" />
+  <img src="lighting_study_2.png" width="49%" />
+</p>
 
 ### Food Paintings
+I like to paint draw and paint pictures of food.
 <p align="middle">
-  <img src="food_meat.jpg" width="46%" />
+  <img src="food_meat.jpg" width="47%" />
   <img src="food_parfait.png" width="50%" />
 </p>
 
@@ -33,6 +40,9 @@ Everything from character art, custom brushes, to ballpoint pen!
   <img src="glasses_study.png" width="46%" />
 </p>
 
+### Graphic Design
+Coming soon!
+
 ## Questions
 
 ### "What programs do you use?"
@@ -43,6 +53,7 @@ Everything from character art, custom brushes, to ballpoint pen!
 - Blender for 3D and video editing
 - Audacity for audio manipulation
 - And whatever I can get my hands on for traditional art (usually pencil and ballpoint pen)
+
 
 TODO: elaborate later
 
