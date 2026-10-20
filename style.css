@@ -53,9 +53,11 @@
     height: 16px;
 }
 
-#navbar > li.current {
+#navbar > li .current {
+    font-weight: normal;
     color: var(--fg_color);
-
+    text-decoration: underline dashed;
+    pointer-events: none;
 }
 
 .content {
@@ -102,8 +104,7 @@ header {
 }
 
 footer {
-    position: sticky;
-    bottom: 0;
+    margin: 10px;
 }
 
 
