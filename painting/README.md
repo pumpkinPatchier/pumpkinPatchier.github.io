@@ -1,4 +1,10 @@
+I mostly do digital art, but I'm also experienced in animation (both frame-by-frame and tweening), photo and video editing, 3D sculpting, CAD, vector art, pixel art, and traditional illustration.
 
+I've dabbled in sewing and audio editing.
+
+I also enjoy spending time creating digital brushes that suit my preferences and workflow. My current favourite brush is a tilt-sensitive rectangular brush that places colour when the pen is upright, but blends at when the pen is used at an angle. You can see the results showcased in [Statue Studies](#statue-studies), which is made only using that brush.
+
+I also made the "colour-jitter roller" brush used in [meenah.png](meenah.png), which I made after realizing that I wasn't using enough colour variation in my art.
 
 ## My Personal Gallery
 Here is an assorted collection of the art that I've created.
