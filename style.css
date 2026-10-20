@@ -1,5 +1,7 @@
 :root {
         --font-size: 14px;
+        --font-weight: 500;
+        --font-weight-bold: 700;
 	--font_family: 'Courier New', 'Courier Prime';
 	--golgothas: #1f9400;
 	--timaeus: #f2a400;
@@ -26,6 +28,18 @@
 	--navbar_text_color: var(--fg_color);
 	--button_color: var(--accent_color);
 	--button_text_color: var(--fg_color);
+}
+
+body {
+    font-weight: var(--font-weight);
+    margin: 0;
+    color: var(--text_color);
+    font-family: var(--font_family);
+}
+
+body ::selection {
+    color: var(--fg_color);
+    background-color: var(--accent_color);
 }
 
 #navbar {
@@ -66,11 +80,6 @@
     background-image: var(--background_tile);
 }
 
-body {
-    margin: 0;
-    color: var(--text_color);
-    font-family: var(--font_family);
-}
 
 em {
     color: var(--accent_color);
