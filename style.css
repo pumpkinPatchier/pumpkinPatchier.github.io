@@ -1,4 +1,5 @@
 :root {
+        --font-size: 14px;
 	--font_family: 'Courier New', 'Courier Prime';
 	--golgothas: #1f9400;
 	--timaeus: #f2a400;
@@ -47,18 +48,23 @@
     background-image: var(--spacer_image);
     background-size: contain;
     image-rendering: crisp-edges;
-    margin: 0 8px -5px 0;
+    margin: 0 10px -4px 0;
     width: 16px;
     height: 16px;
 }
 
+#navbar > li.current {
+    color: var(--fg_color);
+
+}
+
 .content {
+    max-width: 800px;
     padding: 0 20px;
     background-image: var(--background_tile);
 }
 
 body {
-    font-size: 14px;
     margin: 0;
     color: var(--text_color);
     font-family: var(--font_family);
