@@ -4,7 +4,10 @@
 Here is an assorted collection of the art that I've created.
 
 ### 3D Stuff
-More stuff coming soon, but in the meantime, this low-poly animation is made in Blender (including modeling, painting, UV unwrapping, animation, compositing, and video editing). The effects in the background look like 2D, but they're actually curves animated in 3D, but rendered flat!
+More stuff coming soon, but in the meantime, this low-poly animation is made in Blender (including modeling, painting, UV unwrapping, animation, compositing, and video editing). The spinning effects in the background look like 2D, but they're actually curves animated in 3D, but rendered flat!
+
+(Click to load at better speed if it is lagging in the preview)
+
 <img src="blender_spin.gif" width="85%" align="middle" />
 
 
