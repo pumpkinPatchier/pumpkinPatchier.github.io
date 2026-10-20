@@ -2,10 +2,16 @@
 
 ## My Personal Gallery
 
+### 3D Stuff
+More stuff coming soon, but in the meantime, this low-poly animation is made in Blender (including modeling, painting, UV unwrapping, animation, compositing, and video editing). The effects in the background look like 2D, but they're actually curves animated in 3D, but rendered flat!
+![blender_spin.gif](blender_spin.gif)
+<img src="blender_spin.gif" width="100%" />
+
+
 ### Food Paintings
 <p align="middle">
   <img src="food_meat.jpg" width="46%" />
-  <img src="food_parfait.png" width="46%" />
+  <img src="food_parfait.png" width="50%" />
 </p>
 
 ### Digital "Impasto" Painting
@@ -29,4 +35,23 @@ Everything from character art, custom brushes, to ballpoint pen!
 
 ## Questions
 
-### License
+### "What programs do you use?"
+
+- Krita for digital art and animation
+- Inkscape for vector art and graphic design
+- Asesprite* for pixel art
+- Blender for 3D and video editing
+- Audacity for audio manipulation
+- And whatever I can get my hands on for traditional art (usually pencil and ballpoint pen)
+
+TODO: elaborate later
+
+### "What brushes do you use?" (digital art)
+
+### "Can I have your brushes?"
+
+### "What can I do with your art?"
+You can do whatever you want with it. If you do something cool with my art, feel free to show me.
+
+### "Okay sure but what license is that?"
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/), Public Domain. I own my art just as much as you do.
