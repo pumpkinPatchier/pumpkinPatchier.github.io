@@ -383,6 +383,7 @@
 
 #workskin .card:hover .highlight.rainbow {
   background: linear-gradient(#64e9ed, #caa1ff, #f02b7d);
+  margin-left: 125%;
 }
 
 #workskin .card.demo {
