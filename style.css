@@ -75,7 +75,7 @@ body ::selection {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 1200px;
     padding: 0 20px;
     background-image: var(--background_tile);
 }
@@ -100,6 +100,17 @@ a:visited {
 
 a:visited:hover {
     color: var(--link_visited_hover_color);
+}
+
+li a.coming-soon {
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline dashed;
+    pointer-events: none;
+}
+
+li a.coming-soon::after {
+    content: " (coming soon!)";
 }
 
 button {
