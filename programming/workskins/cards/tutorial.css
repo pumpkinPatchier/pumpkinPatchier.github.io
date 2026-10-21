@@ -1,0 +1,404 @@
+/* Tutorial Stuff */
+
+#workskin .class-name {
+  font-weight: bold;
+  color: #E4572E;
+}
+
+#workskin .class-color {
+  font-weight: bold;
+  color: #F3A712;
+}
+
+#workskin .class-link {
+  font-weight: bold;
+  color: #669BBC;
+}
+
+#workskin .class-icon {
+  font-weight: bold;
+  color: #20BF55;
+}
+
+#workskin .css.dark {
+  background-color: #211717;
+}
+
+#workskin .code-comment {
+  color: #717171;
+}
+
+#workskin .default-color {
+  font-weight: bold;
+  background-color: #555;
+  color: white;
+  padding: 0 5.2px 0 4px;
+}
+
+#workskin .primary-color {
+  font-weight: bold;
+  color: #C5482E;
+}
+
+#workskin .secondary-color {
+  font-weight: bold;
+  color: blue;
+}
+
+#workskin .tertiary-color {
+  font-weight: bold;
+  color: purple;
+}
+
+#workskin .tld {
+  font-weight: bold;
+  color: #328F3F;
+}
+
+#workskin .img {
+  font-weight: bold;
+  color: #34D3E4;
+}
+
+#workskin .gradient-1 {
+  font-weight: bold;
+  color: #C5482E;
+}
+
+#workskin .gradient-2 {
+  font-weight: bold;
+  color: #34D3E4;
+}
+
+#workskin .url {
+  font-weight: bold;
+  color: #328F3F;
+}
+
+#workskin span.dirk,
+#workskin code.dirk {
+  box-shadow: unset;
+  background-color: unset;
+  color: #f2a400;
+  font-weight: bold;
+}
+
+#workskin span.jake,
+#workskin code.jake {
+  box-shadow: unset;
+  background-color: unset;
+  color: #1f9400;
+  font-weight: bold;
+}
+
+#workskin .code-container {
+  padding: 0 2em;
+  margin-top: -1.5em;
+  margin-bottom: 3em;
+}
+
+#workskin .code-container pre {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  box-shadow: inset 0 1px 2px #ccc;
+  padding: 1em;
+  margin-top: 1.2em;
+  overflow: auto;
+  display: block;
+}
+
+#workskin pre.abridged {
+  max-height: 12em;
+}
+
+#workskin .example {
+  margin: 1em 1em 0em 0em;
+  float: left;
+}
+
+#workskin .css {
+  overflow: auto;
+  height: 100%;
+  display: block;
+  background-color: #DDDDDD;
+  border-radius: 12px;
+  border: 2px solid #f3efec;
+  padding: .643em;
+  box-shadow: inset 1px 0 5px #999;
+}
+
+#workskin .css.label {
+  width: max-content;
+  border-radius: unset;
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: .5em;
+  box-shadow: 1px 2px 3px #999;
+  margin-left: 2em;
+  margin-bottom: -1.5em;
+}
+
+#workskin .html {
+  overflow: auto;
+  height: 100%;
+  display: block;
+  background-color: #DDDDDD;
+  border-radius: 12px;
+  border: 2px solid #f3efec;
+  padding: .643em;
+  box-shadow: inset 1px 0 5px #999;
+}
+
+#workskin .html.label {
+  color: #900;
+  width: max-content;
+  border-radius: unset;
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: .5em;
+  box-shadow: 1px 2px 3px #999;
+  margin-left: 2em;
+  margin-bottom: -1.5em;
+}
+
+#workskin .card-table {
+  display: flex;
+  width: 55%;
+  background-color: #1d061a;
+  overflow: hidden;
+  padding-top: 4em;
+  padding-right: 1em;
+  padding-bottom: 5em;
+  padding-left: 1em;
+  margin: 0;
+}
+
+#workskin .card {
+  display: inline-block;
+  border-radius: 1em;
+  width: 6em;
+  height: 8em;
+  border: 4px solid #555;
+  padding: 0.5em;
+  background-color: #555;
+  overflow: hidden;
+  box-shadow: 0em 0em 3em #555;
+  transition: transform 1.5s ease, background-color 1.5s ease, box-shadow 1.5s ease-out;
+  transform: skewX(15deg);
+  margin: 1em 3em 0 2.3em;
+}
+
+#workskin .card .my-icon {
+  width: 4em;
+  height: auto;
+  margin: auto;
+  transition: opacity 1.5s ease;
+  opacity: 0;
+}
+
+#workskin .card .link {
+  top: -.25em;
+  left: -.25em;
+  position: absolute;
+  border-radius: 1em;
+  width: 6.5em;
+  height: 8.5em;
+  padding: 0.5em;
+  z-index: 1;
+}
+
+#workskin .card:hover {
+  transform: rotate(-15deg);
+  background-color: #fff;
+  box-shadow: -1.5em 1em 3em #555;
+}
+
+#workskin .card:hover .my-icon {
+  opacity: 1;
+}
+
+#workskin .highlight {
+  position: absolute;
+  top: -3%;
+  left: 0;
+  width: 1em;
+  height: 106%;
+  margin-left: -55%;
+  transform: skew(-20deg);
+  transition: width .5s ease, margin-left .9s ease, opacity .2s;
+  background: linear-gradient(#ffe479, #fff);
+  opacity: 0.75;
+}
+
+#workskin .highlight::after {
+  content: "";
+  position: absolute;
+  top: -3%;
+  left: 0em;
+  width: 0.6em;
+  height: 106%;
+  margin-left: -55%;
+  background: linear-gradient(#ffe479, #fff);
+  opacity: 0.75;
+}
+
+#workskin .card:hover .highlight {
+  width: 2.5em;
+  margin-left: 140%;
+  opacity: 1;
+  background: linear-gradient(#ffe479, #fff);
+}
+
+#workskin .card a,
+#workskin .card a:link,
+#workskin .card a:visited,
+#workskin .card a:active,
+#workskin .card a:hover {
+  border: none !important;
+}
+
+#workskin .jake {
+  box-shadow: 0em 0em 3em #1f9400;
+  background-color: #1f9400;
+  border-color: #1f9400;
+  color: #1f9400;
+}
+
+#workskin .card.jake:hover {
+  box-shadow: 0 0 3em #1f940099;
+}
+
+#workskin .jake .my-icon {
+  content: url('https://i.ibb.co/LxjH7rY/jake-skull-lineless.png');
+}
+
+#workskin .dirk {
+  box-shadow: 0em 0em 3em #f2a400;
+  background-color: #f2a400;
+  border-color: #f2a400;
+  color: #f2a400;
+}
+
+#workskin .card.dirk:hover {
+  box-shadow: 0em 0em 3em #ffe094;
+}
+
+#workskin .dirk .my-icon {
+  height: auto;
+  width: 5em;
+  content: url('https://i.ibb.co/xDPBC8H/dirk-shades.png');
+}
+
+#workskin .ao3-format {
+  box-shadow: 0em 0em 3em #900;
+  background-color: #900;
+  border-color: #900;
+}
+
+#workskin .card.ao3-format:hover {
+  box-shadow: -1.5em 1em 3em #900;
+}
+
+#workskin .ao3-logo {
+  content: url(https://archiveofourown.org/images/ao3_logos/logo_42.png);
+}
+
+#workskin .card.mini {
+  width: 4em;
+  height: 6em;
+}
+
+#workskin .twitter {
+  box-shadow: 0em 0em 3em #1DA1F2;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+#workskin .twitter .my-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png);
+}
+
+#workskin .tumblr {
+  box-shadow: 0em 0em 3em #35465c;
+  background-color: #35465c;
+  border-color: #35465c;
+}
+
+#workskin .tumblr .my-icon {
+  content: url(https://cdn-icons-png.flaticon.com/512/145/145811.png);
+}
+
+#workskin .card.mini .my-icon {
+  width: 75%;
+}
+
+#workskin .sailor-moon {
+  box-shadow: 0em 0em 3em #fbc1ff;
+  background-color: #fbc1ff;
+  border-color: #fbc1ff;
+}
+
+#workskin .card.sailor-moon:hover {
+  box-shadow: -1.5em 1em 3em #FFEB85;
+}
+
+#workskin .card.sailor-moon .my-icon {
+  width: 6em;
+  content: url('https://i.ibb.co/qWYMHJN/sailor-moon-heart.png');
+}
+
+#workskin .rainbow::before {
+  content: "";
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  box-shadow: 0.5em 0.5em 0 0 #ffbc4f;
+  opacity: 0.5;
+  position: absolute;
+  transform: rotate(10deg);
+  margin-left: -235%;
+  margin-top: 250%;
+  transition: transform 2.5s ease;
+}
+
+#workskin .card:hover .rainbow::before {
+  transform: rotate(-50deg) scale(1.3, 1.7);
+}
+
+#workskin .rainbow {
+  width: 2em;
+  opacity: 0.7;
+  background: linear-gradient(#64e9ed, #caa1ff, #f02b7d);
+  margin-left: -70%;
+}
+
+#workskin .rainbow::after {
+  width: 0.9em;
+  background: linear-gradient(#64e9ed, #caa1ff, #f02b7d);
+  opacity: 0.7;
+  margin-left: 115%;
+}
+
+#workskin .card:hover .highlight.rainbow {
+  background: linear-gradient(#64e9ed, #caa1ff, #f02b7d);
+}
+
+#workskin .card.demo {
+  overflow: visible;
+}
+
+#workskin .demo .highlight,
+#workskin .demo:hover .highlight,
+#workskin .demo .highlight::after {
+  background: linear-gradient(#C5482E, #34D3E4);
+}
+
+#workskin .demo .highlight.single::after {
+  display: none;
+}
+
+
+
+
