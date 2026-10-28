@@ -115,19 +115,13 @@
 }
 
 #workskin .ao3 .icon {
-  content: url(https://archiveofourown.org/images/ao3_logos/logo_42.png);
+  content: url(/assets/ao3_logo.png);
 }
 
-/* TWITTER */
-#workskin .twitter {
-  box-shadow: 0em 0em 3em #1DA1F2;
-  background-color: #1DA1F2;
-  border-color: #1DA1F2;
-}
-
-#workskin .twitter .icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png);
-}
+/*
+ * Twitter has been removed as a result of not wanting to support the platform
+ * due to changes in policy and ownership
+*/
 
 /* TUMBLR */
 #workskin .tumblr {
@@ -137,7 +131,7 @@
 }
 
 #workskin .tumblr .icon {
-  content: url(https://cdn-icons-png.flaticon.com/512/145/145811.png);
+  content: url(/assets/tumblr_icon.png);
 }
 
 /* CHARACTER CARDS: */
@@ -153,7 +147,7 @@
 }
 
 #workskin .card.jake .icon {
-  content: url('https://i.ibb.co/LxjH7rY/jake-skull-lineless.png');
+  content: url(/assets/golgothas_lineless.png);
 }
 
 
@@ -171,7 +165,7 @@
 /* Dirk's shades are a little wider so they need a bit more width */
 #workskin .card.dirk .icon {
   width: 5em;
-  content: url('https://i.ibb.co/xDPBC8H/dirk-shades.png');
+  content: url(/assets/timaeus_lineless.png);
 }
 
 
@@ -188,7 +182,7 @@
 
 #workskin .card.sailor-moon .icon {
   width: 6em;
-  content: url('https://i.ibb.co/qWYMHJN/sailor-moon-heart.png');
+  content: url(/assets/sailor_moon_heart.png);
 }
 
 /* Rainbow highlight */

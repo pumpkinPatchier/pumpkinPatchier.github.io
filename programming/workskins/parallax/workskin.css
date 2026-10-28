@@ -23,7 +23,7 @@
 }
 
 #workskin .magazine {
-  background-image: url(https://i.ibb.co/XZPC68yw/magazine-text.png), url(https://i.ibb.co/35zvvr8W/magazine-women.png), url(https://i.ibb.co/01MNngn/magazine-bg.png);
+  background-image: url(./assets/magazine_text.png), url(./assets/magazine_women.png), url(./assets/magazine_bg.png);
   background-attachment: scroll, fixed, scroll;
   background-repeat: no-repeat;
   background-size: auto 46vh, auto 83vh;
@@ -44,7 +44,7 @@
 }
 
 #workskin .parallax-1 {
-  background-image: url("https://i.ibb.co/gnQKvkx/dirk-no-bg.png"), url("https://i.ibb.co/xqbQC0JF/bg-1.png");
+  background-image: url("./assets/dirk.png"), url("./assets/bg_dirk.png");
   background-attachment: fixed, scroll;
   background-position: right, right;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@
 }
 
 #workskin .parallax-2 {
-  background-image: url("https://i.ibb.co/B2kGZNz1/jake-no-bg.png"), url("https://i.ibb.co/gZ6Q1JMK/bg.png");
+  background-image: url(./assets/jake.png), url(./assets/bg_jake.png);
   background-attachment: fixed, scroll;
   background-repeat: no-repeat;
   background-size: auto 82vh, contain;
@@ -107,7 +107,7 @@
 }
 
 #workskin .parallax-jake {
-  background-image: url("https://i.ibb.co/YB8HvcLh/layer-06.png"), url("https://i.ibb.co/NdHcfrqB/layer-05.png"), url("https://i.ibb.co/S43Zxs7y/layer-04.png"), url("https://i.ibb.co/R5PGk9Y/layer-03.png"), url("https://i.ibb.co/67cgyFsj/layer-02.png"), url("https://i.ibb.co/sdcdCn5q/layer-01.png"), url("https://i.ibb.co/5tB9BmY/layer-00.png"), url("https://i.ibb.co/4gmLYn8F/jake.png"), url("https://i.ibb.co/d0tQqSjr/bg.png");
+  background-image: url("./assets/layer_06.png"), url("./assets/layer_05.png"), url("./assets/layer_04.png"), url("./assets/layer_03.png"), url("./assets/layer_02.png"), url("./assets/layer_01.png"), url("./assets/layer_00.png"), url("./assets/blue_jake.png"), url("./assets/layer_bg.png");
   background-attachment: fixed, scroll, fixed, scroll, fixed, scroll, fixed, scroll, scroll;
   background-repeat: no-repeat;
   background-position: center, center;
@@ -136,7 +136,7 @@
 }
 
 #workskin .thought-box {
-  background: url(https://i.ibb.co/b5wM3RLD/rain.gif);
+  background: url(./assets/rain.gif);
   padding: 1.2em;
   border-radius: 1em;
   box-shadow: 0 0 11px 2px #000000b0;

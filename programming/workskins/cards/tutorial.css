@@ -271,7 +271,7 @@
 }
 
 #workskin .jake .my-icon {
-  content: url('https://i.ibb.co/LxjH7rY/jake-skull-lineless.png');
+  content: url(/assets/golgothas_lineless.png);
 }
 
 #workskin .dirk {
@@ -288,7 +288,7 @@
 #workskin .dirk .my-icon {
   height: auto;
   width: 5em;
-  content: url('https://i.ibb.co/xDPBC8H/dirk-shades.png');
+  content: url(/assets/timaeus_lineless.png);
 }
 
 #workskin .ao3-format {
@@ -302,7 +302,7 @@
 }
 
 #workskin .ao3-logo {
-  content: url(https://archiveofourown.org/images/ao3_logos/logo_42.png);
+  content: url(/assets/ao3_logo.png);
 }
 
 #workskin .card.mini {
@@ -310,15 +310,16 @@
   height: 6em;
 }
 
-#workskin .twitter {
-  box-shadow: 0em 0em 3em #1DA1F2;
-  background-color: #1DA1F2;
-  border-color: #1DA1F2;
-}
+/*
+ * Formerly I showcased a "Twitter"-themed card with the bird icon
+ * to show off how you could use this to link to your socials in endnotes.
+ * I have since removed this from the tutorial to avoid supporting the platform
+ * due to changes in policy and ownership.
+ */
 
-#workskin .twitter .my-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png);
-}
+ /*
+  * Tumblr can stay for now (but it is on thin ice)
+  */
 
 #workskin .tumblr {
   box-shadow: 0em 0em 3em #35465c;
@@ -327,7 +328,7 @@
 }
 
 #workskin .tumblr .my-icon {
-  content: url(https://cdn-icons-png.flaticon.com/512/145/145811.png);
+  content: url(/assets/tumblr_icon.png);
 }
 
 #workskin .card.mini .my-icon {
@@ -346,7 +347,7 @@
 
 #workskin .card.sailor-moon .my-icon {
   width: 6em;
-  content: url('https://i.ibb.co/qWYMHJN/sailor-moon-heart.png');
+  content: url(/assets/sailor_moon_heart.png);
 }
 
 #workskin .rainbow::before {
